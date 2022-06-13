@@ -5392,6 +5392,13 @@ xsd:date rdf:type rdfs:Datatype .
                                                        rdfs:comment "Represents non-oncological treatment line observations."@en ;
                                                        rdfs:label "NonOncologicalTreatmentLine"@en .
 
+###  http://p4-lucat.eu/vocab/Non-OncologicalTreatment
+<http://p4-lucat.eu/vocab/Non-OncologicalTreatment> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://p4-lucat.eu/vocab/Treatment> ;
+                                                    <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                                    <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
+                                                    rdfs:comment "Represents non-oncological treatment."@en ;
+                                                    rdfs:label "Non-OncologicalTreatment"@en .
 
 ###  http://p4-lucat.eu/vocab/Observation
 <http://p4-lucat.eu/vocab/Observation> rdf:type owl:Class ;
@@ -5418,6 +5425,14 @@ xsd:date rdf:type rdfs:Datatype .
                                                     <http://purl.org/dc/terms/modified> "2020-07-21"@en ;
                                                     rdfs:comment "Represents oncological treatment line observations."@en ;
                                                     rdfs:label "OncologicalTreatmentLine"@en .
+
+###  http://p4-lucat.eu/vocab/OncologicalTreatment
+<http://p4-lucat.eu/vocab/OncologicalTreatment> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://p4-lucat.eu/vocab/Treatment> ;
+                                                    <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                                    <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
+                                                    rdfs:comment "Represents oncological treatment."@en ;
+                                                    rdfs:label "OncologicalTreatment"@en .
 
 
 ###  http://p4-lucat.eu/vocab/Organ
