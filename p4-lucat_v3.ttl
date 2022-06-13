@@ -4768,6 +4768,14 @@ xsd:date rdf:type rdfs:Datatype .
                                            rdfs:label "AssociatedWith"@en .
 
 
+###  http://p4-lucat.eu/vocab/Adjuvant
+<http://p4-lucat.eu/vocab/Adjuvant> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://p4-lucat.eu/vocab/NonOncologicalTreatment> ;
+                                   <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                   <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
+                                   rdfs:comment "A person who is receiving Adjuvant."@en ;
+                                   rdfs:label "Adjuvant"@en .
+
 ###  http://p4-lucat.eu/vocab/AdverseEvent
 <http://p4-lucat.eu/vocab/AdverseEvent> rdf:type owl:Class ;
                                         rdfs:subClassOf <http://p4-lucat.eu/vocab/Concept> ;
@@ -4775,6 +4783,15 @@ xsd:date rdf:type rdfs:Datatype .
                                         <http://purl.org/dc/terms/modified> "2020-07-24"@en ;
                                         rdfs:comment "Represents the consequence of the interaction between two drugs."@en ;
                                         rdfs:label "AdverseEvent"@en .
+
+
+###  http://p4-lucat.eu/vocab/ALK
+<http://p4-lucat.eu/vocab/ALK> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/Biomarker> ;
+                                        <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                        <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
+                                        rdfs:comment "ALK biomarker present in patients."@en ;
+                                        rdfs:label "ALK"@en .
 
 
 ###  http://p4-lucat.eu/vocab/AngiogenesisInhibitorDrug
@@ -4846,6 +4863,13 @@ xsd:date rdf:type rdfs:Datatype .
                                             rdfs:comment "This class represents the examined part of the body"@en ;
                                             rdfs:label "BodyPartExamined"@en .
 
+###  http://p4-lucat.eu/vocab/BRAF
+<http://p4-lucat.eu/vocab/BRAF> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/Biomarker> ;
+                                        <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                        <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
+                                        rdfs:comment "BRAF biomarker present in patients."@en ;
+                                        rdfs:label "BRAF"@en .
 
 ###  http://p4-lucat.eu/vocab/CAUSES
 <http://p4-lucat.eu/vocab/CAUSES> rdf:type owl:Class ;
@@ -4885,7 +4909,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://p4-lucat.eu/vocab/Chemotherapy
 <http://p4-lucat.eu/vocab/Chemotherapy> rdf:type owl:Class ;
-                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/Treatment> ;
+                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/OncologicalTreatment> ;
                                         rdfs:label "Chemotherapy" .
 
 
@@ -5115,6 +5139,13 @@ xsd:date rdf:type rdfs:Datatype .
                                              rdfs:comment "The relation between two drugs that interact."@en ;
                                              rdfs:label "EffectInteraction"@en .
 
+###  http://p4-lucat.eu/vocab/EGFR
+<http://p4-lucat.eu/vocab/EGFR> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/Biomarker> ;
+                                        <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                        <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
+                                        rdfs:comment "EGFR biomarker present in patients."@en ;
+                                        rdfs:label "EGFR"@en .
 
 ###  http://p4-lucat.eu/vocab/Enzyme
 <http://p4-lucat.eu/vocab/Enzyme> rdf:type owl:Class ;
@@ -5150,6 +5181,13 @@ xsd:date rdf:type rdfs:Datatype .
                                               rdfs:subClassOf <http://p4-lucat.eu/vocab/FamiliarAntecedent> ;
                                               rdfs:label "FamilyRelationship" .
 
+###  http://p4-lucat.eu/vocab/FGFR1
+<http://p4-lucat.eu/vocab/FGFR1> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/Biomarker> ;
+                                        <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                        <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
+                                        rdfs:comment "FGFR1 biomarker present in patients."@en ;
+                                        rdfs:label "FGFR1"@en .
 
 ###  http://p4-lucat.eu/vocab/Gender
 <http://p4-lucat.eu/vocab/Gender> rdf:type owl:Class ;
@@ -5170,6 +5208,22 @@ xsd:date rdf:type rdfs:Datatype .
                                      <http://purl.org/dc/terms/modified> "2017-10-23"@en ;
                                      rdfs:comment "A relation that shows which CUI has been appeared in each specific publication."@en ;
                                      rdfs:label "HasTopic"@en .
+
+###  http://p4-lucat.eu/vocab/HER2
+<http://p4-lucat.eu/vocab/HER2> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/Biomarker> ;
+                                        <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                        <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
+                                        rdfs:comment "HER2 biomarker present in patients."@en ;
+                                        rdfs:label "HER2"@en .
+
+###  http://p4-lucat.eu/vocab/HER2MUT
+<http://p4-lucat.eu/vocab/HER2MUT> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/Biomarker> ;
+                                        <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                        <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
+                                        rdfs:comment "HER2MUT biomarker present in patients."@en ;
+                                        rdfs:label "HER2MUT"@en .
 
 
 ###  http://p4-lucat.eu/vocab/Histology
@@ -5226,7 +5280,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://p4-lucat.eu/vocab/Immunotherapy
 <http://p4-lucat.eu/vocab/Immunotherapy> rdf:type owl:Class ;
-                                         rdfs:subClassOf <http://p4-lucat.eu/vocab/Treatment> ;
+                                         rdfs:subClassOf <http://p4-lucat.eu/vocab/OncologicalTreatment> ;
                                          rdfs:label "Immunotherapy" .
 
 
@@ -5282,6 +5336,14 @@ xsd:date rdf:type rdfs:Datatype .
                                               rdfs:label "Keyword-Annotation" .
 
 
+###  http://p4-lucat.eu/vocab/KRAS
+<http://p4-lucat.eu/vocab/KRAS> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/Biomarker> ;
+                                        <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                        <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
+                                        rdfs:comment "KRAS biomarker present in patients."@en ;
+                                        rdfs:label "KRAS"@en .
+
 ###  http://p4-lucat.eu/vocab/LCImage
 <http://p4-lucat.eu/vocab/LCImage> rdf:type owl:Class ;
                                    rdfs:subClassOf <http://p4-lucat.eu/vocab/Concept> ;
@@ -5331,6 +5393,14 @@ xsd:date rdf:type rdfs:Datatype .
                                           rdfs:comment "The laterality of lung to which the image refers."@en ;
                                           rdfs:label "LungLaterality"@en .
 
+###  http://p4-lucat.eu/vocab/MET
+<http://p4-lucat.eu/vocab/MET> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/Biomarker> ;
+                                        <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                        <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
+                                        rdfs:comment "MET biomarker present in patients."@en ;
+                                        rdfs:label "MET"@en .
+
 
 ###  http://p4-lucat.eu/vocab/MENTIONED_IN
 <http://p4-lucat.eu/vocab/MENTIONED_IN> rdf:type owl:Class ;
@@ -5350,6 +5420,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://p4-lucat.eu/vocab/Metastasis_Location
 <http://p4-lucat.eu/vocab/Metastasis_Location> rdf:type owl:Class ;
                                                rdfs:subClassOf <http://p4-lucat.eu/vocab/Concept> .
+
 
 
 ###  http://p4-lucat.eu/vocab/Modality
@@ -5372,6 +5443,14 @@ xsd:date rdf:type rdfs:Datatype .
 <http://p4-lucat.eu/vocab/Mutation> rdf:type owl:Class .
 
 
+###  http://p4-lucat.eu/vocab/Neoadjuvant
+<http://p4-lucat.eu/vocab/Neoadjuvant> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://p4-lucat.eu/vocab/NonOncologicalTreatment> ;
+                                   <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                   <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
+                                   rdfs:comment "A person who is receiving Neoadjuvant."@en ;
+                                   rdfs:label "Neoadjuvant"@en .
+
 ###  http://p4-lucat.eu/vocab/NLPtool
 <http://p4-lucat.eu/vocab/NLPtool> rdf:type owl:Class ;
                                    rdfs:subClassOf <http://p4-lucat.eu/vocab/Concept> ;
@@ -5392,13 +5471,13 @@ xsd:date rdf:type rdfs:Datatype .
                                                        rdfs:comment "Represents non-oncological treatment line observations."@en ;
                                                        rdfs:label "NonOncologicalTreatmentLine"@en .
 
-###  http://p4-lucat.eu/vocab/Non-OncologicalTreatment
-<http://p4-lucat.eu/vocab/Non-OncologicalTreatment> rdf:type owl:Class ;
+###  http://p4-lucat.eu/vocab/NonOncologicalTreatment
+<http://p4-lucat.eu/vocab/NonOncologicalTreatment> rdf:type owl:Class ;
                                                     rdfs:subClassOf <http://p4-lucat.eu/vocab/Treatment> ;
                                                     <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
                                                     <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
                                                     rdfs:comment "Represents non-oncological treatment."@en ;
-                                                    rdfs:label "Non-OncologicalTreatment"@en .
+                                                    rdfs:label "NonOncologicalTreatment"@en .
 
 ###  http://p4-lucat.eu/vocab/Observation
 <http://p4-lucat.eu/vocab/Observation> rdf:type owl:Class ;
@@ -5451,6 +5530,15 @@ xsd:date rdf:type rdfs:Datatype .
                                        <http://purl.org/dc/terms/modified> "2017-10-23"@en ;
                                        rdfs:comment "UMLS Annotation."@en ;
                                        rdfs:label "Predisposes"@en .
+
+
+###  http://p4-lucat.eu/vocab/PalliativeCare
+<http://p4-lucat.eu/vocab/PalliativeCare> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://p4-lucat.eu/vocab/NonOncologicalTreatment> ;
+                                   <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                   <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
+                                   rdfs:comment "A person who is receiving palliative care."@en ;
+                                   rdfs:label "PalliativeCare"@en .
 
 
 ###  http://p4-lucat.eu/vocab/Patient
@@ -5539,7 +5627,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://p4-lucat.eu/vocab/Surgery
 <http://p4-lucat.eu/vocab/Surgery> rdf:type owl:Class ;
-                                           rdfs:subClassOf <http://p4-lucat.eu/vocab/Concept> ;
+                                           rdfs:subClassOf <http://p4-lucat.eu/vocab/OncologicalTreatment> ;
                                            rdfs:isDefinedBy "disha_purohit"@en ;
                                            rdfs:label "Surgery"@en .
 
@@ -5548,6 +5636,15 @@ xsd:date rdf:type rdfs:Datatype .
                                            rdfs:subClassOf <http://p4-lucat.eu/vocab/Surgery> ;
                                            rdfs:isDefinedBy "disha_purohit"@en ;
                                            rdfs:label "Patient_Surgery"@en .
+
+
+###  http://p4-lucat.eu/vocab/PDL1
+<http://p4-lucat.eu/vocab/PDL1> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/Biomarker> ;
+                                        <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                        <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
+                                        rdfs:comment "PDL1 biomarker present in patients."@en ;
+                                        rdfs:label "PDL1"@en .
 
 
 ###  http://p4-lucat.eu/vocab/PerformanceObservation
@@ -5664,7 +5761,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://p4-lucat.eu/vocab/Radiotherapy
 <http://p4-lucat.eu/vocab/Radiotherapy> rdf:type owl:Class ;
-                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/Treatment> ;
+                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/OncologicalTreatment> ;
                                         rdfs:label "Radiotherapy" .
 
 
@@ -5687,6 +5784,24 @@ xsd:date rdf:type rdfs:Datatype .
                                     <http://purl.org/dc/terms/modified> "2017-10-23"@en ;
                                     rdfs:comment "Relations between concepts."@en ;
                                     rdfs:label "Relation"@en .
+
+###  http://p4-lucat.eu/vocab/RET
+<http://p4-lucat.eu/vocab/RET> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/Biomarker> ;
+                                        <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                        <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
+                                        rdfs:comment "RET biomarker present in patients."@en ;
+                                        rdfs:label "RET"@en .
+
+
+###  http://p4-lucat.eu/vocab/ROS1
+<http://p4-lucat.eu/vocab/ROS1> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/Biomarker> ;
+                                        <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                        <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
+                                        rdfs:comment "ROS1 biomarker present in patients."@en ;
+                                        rdfs:label "ROS1"@en .
+
 
 
 ###  http://p4-lucat.eu/vocab/STIMULATES
@@ -5851,7 +5966,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://p4-lucat.eu/vocab/Tki
 <http://p4-lucat.eu/vocab/Tki> rdf:type owl:Class ;
-                               rdfs:subClassOf <http://p4-lucat.eu/vocab/Treatment> ;
+                               rdfs:subClassOf <http://p4-lucat.eu/vocab/OncologicalTreatment> ;
                                rdfs:label "Tki" .
 
 
