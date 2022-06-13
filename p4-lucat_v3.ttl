@@ -5981,23 +5981,6 @@ xsd:date rdf:type rdfs:Datatype .
                                         rdfs:label "placeOfDeath" .
 
 
-<http://p4-lucat.eu/vocab/service_has_scope> <http://purl.org/dc/terms/modified> "2021-02-05"@en ;
-                                             <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> ;
-                                             rdfs:comment "."@en ;
-                                             rdfs:label "service_has_scope"@en .
-
-
-<http://p4-lucat.eu/vocab/service_has_type> <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> ;
-                                            <http://purl.org/dc/terms/modified> "2021-02-05"@en ;
-                                            rdfs:comment "" ;
-                                            rdfs:label "service_has_type"@en .
-
-
-<http://p4-lucat.eu/vocab/service_isRelatedTo_department> <http://purl.org/dc/terms/modified> "2021-02-05"@en ;
-                                                          rdfs:label "service_isRelatedTo_department"@en ;
-                                                          <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> ;
-                                                          rdfs:comment "."@en .
-
 <http://p4-lucat.eu/vocab/DigitalObjectIdentifier> rdf:type owl:Class ;
                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/Concept> ;
                                        <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/emetis-niazmand/> ;
