@@ -3226,14 +3226,14 @@ xsd:date rdf:type rdfs:Datatype .
                                                       rdfs:label "hasOtherPrevious_Treatment"@en .
 
 
-###  http://p4-lucat.eu/vocab/hasOtherRadioToxicity
-<http://p4-lucat.eu/vocab/hasOtherRadioToxicity> rdf:type owl:DatatypeProperty ;
+###  http://p4-lucat.eu/vocab/hasOtherToxicity
+<http://p4-lucat.eu/vocab/hasOtherToxicity> rdf:type owl:DatatypeProperty ;
                                                  rdfs:subPropertyOf owl:topDataProperty ;
-                                                 rdfs:domain <http://p4-lucat.eu/vocab/Patient_RT_Toxicity> ;
+                                                 rdfs:domain <http://p4-lucat.eu/vocab/otherToxicity> ;
                                                  rdfs:range rdfs:Literal ;
-                                                 rdfs:comment "Other radiotherapy toxicity"@en ;
+                                                 rdfs:comment "Other toxicity"@en ;
                                                  rdfs:isDefinedBy "disha_purohit"@en ;
-                                                 rdfs:label "hasOtherRadioToxicity"@en .
+                                                 rdfs:label "hasOtherToxicity"@en .
 
 
 ###  http://p4-lucat.eu/vocab/hasOtherResultMolecularMarkers
@@ -5605,12 +5605,6 @@ xsd:date rdf:type rdfs:Datatype .
                                                 rdfs:subClassOf <http://p4-lucat.eu/vocab/Concept> ;
                                                 rdfs:label "Patient_RT_Intention" .
 
-
-###  http://p4-lucat.eu/vocab/Patient_RT_Toxicity
-<http://p4-lucat.eu/vocab/Patient_RT_Toxicity> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://p4-lucat.eu/vocab/TreatmentToxicity> ;
-                                               rdfs:isDefinedBy "disha_purohit"@en ;
-                                               rdfs:label "Patient_RT_Toxicity"@en .
 
 
 ###  http://p4-lucat.eu/vocab/Patient_Relapse
