@@ -2760,15 +2760,6 @@ xsd:date rdf:type rdfs:Datatype .
                                         rdfs:label "hasBirthDate" .
 
 
-###  http://p4-lucat.eu/vocab/hasPosition
-<http://p4-lucat.eu/vocab/hasPosition> rdf:type owl:DatatypeProperty ;
-                                         rdfs:subPropertyOf owl:topDataProperty ;
-                                         rdf:type owl:FunctionalProperty ;
-                                         rdfs:domain <http://p4-lucat.eu/vocab/TreatmentToxicity> ;
-                                         rdfs:range rdfs:Literal ;
-                                         rdfs:comment "Position of the treatment following a chronological order"@en ;
-                                         rdfs:isDefinedBy "disha_purohit"@en ;
-                                         rdfs:label "hasPosition"@en .
 
 
 ###  http://p4-lucat.eu/vocab/hasCUIAnnotationCancerTypeOrgan
