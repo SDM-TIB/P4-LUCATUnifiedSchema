@@ -3298,23 +3298,23 @@ xsd:date rdf:type rdfs:Datatype .
                                         rdfs:label "hasProcessId"@en .
 
 
-###  http://p4-lucat.eu/vocab/hasRTPosition
-<http://p4-lucat.eu/vocab/hasRTPosition> rdf:type owl:DatatypeProperty ;
+
+###  http://p4-lucat.eu/vocab/hasID_TreatmentToxicity
+<http://p4-lucat.eu/vocab/hasID_TreatmentToxicity> rdf:type owl:DatatypeProperty ;
                                          rdfs:subPropertyOf owl:topDataProperty ;
                                          rdf:type owl:FunctionalProperty ;
-                                         rdfs:domain <http://p4-lucat.eu/vocab/Radiotherapy> ;
+                                         rdfs:domain <http://p4-lucat.eu/vocab/TreatmentToxicity> ;
                                          rdfs:range rdfs:Literal ;
-                                         rdfs:label "hasRTPosition" .
+                                         rdfs:label "hasID_TreatmentToxicity" .
 
-
-###  http://p4-lucat.eu/vocab/hasRadioTreatmentPosition
-<http://p4-lucat.eu/vocab/hasRadioTreatmentPosition> rdf:type owl:DatatypeProperty ;
+###  http://p4-lucat.eu/vocab/hasTreatmentPosition
+<http://p4-lucat.eu/vocab/hasTreatmentPosition> rdf:type owl:DatatypeProperty ;
                                                      rdfs:subPropertyOf owl:topDataProperty ;
-                                                     rdfs:domain <http://p4-lucat.eu/vocab/Radiotherapy> ;
+                                                     rdfs:domain <http://p4-lucat.eu/vocab/TreatmentToxicity> ;
                                                      rdfs:range rdfs:Literal ;
-                                                     rdfs:comment "ID for Radiotherapy treatment"@en ;
+                                                     rdfs:comment "ID for treatment"@en ;
                                                      rdfs:isDefinedBy "disha_purohit"@en ;
-                                                     rdfs:label "hasRadioTreatmentPosition"@en .
+                                                     rdfs:label "hasTreatmentPosition"@en .
 
 
 ###  http://p4-lucat.eu/vocab/hasRelapseDate
