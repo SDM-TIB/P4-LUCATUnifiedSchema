@@ -501,7 +501,7 @@ xsd:date rdf:type rdfs:Datatype .
 <http://p4-lucat.eu/vocab/hasCUIAnnotationTreatmentToxicity> rdf:type owl:ObjectProperty ;
                                                              rdfs:subPropertyOf owl:topObjectProperty ;
                                                              rdfs:domain <http://p4-lucat.eu/vocab/Treatment> ;
-                                                             rdfs:range <http://p4-lucat.eu/vocab/Treatment_Toxicity> ;
+                                                             rdfs:range <http://p4-lucat.eu/vocab/TreatmentToxicity> ;
                                                              rdfs:comment "CUI associated with the treatment toxicity"@en ;
                                                              rdfs:isDefinedBy "disha_purohit"@en ;
                                                              rdfs:label "hasCUIAnnotationTreatmentToxicity"@en .
@@ -5569,7 +5569,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://p4-lucat.eu/vocab/Patient_CT_Toxicity
 <http://p4-lucat.eu/vocab/Patient_CT_Toxicity> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://p4-lucat.eu/vocab/Treatment_Toxicity> ;
+                                               rdfs:subClassOf <http://p4-lucat.eu/vocab/TreatmentToxicity> ;
                                                rdfs:isDefinedBy "disha_purohit"@en ;
                                                rdfs:label "Patient_CT_Toxicity"@en .
 
@@ -5608,7 +5608,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://p4-lucat.eu/vocab/Patient_RT_Toxicity
 <http://p4-lucat.eu/vocab/Patient_RT_Toxicity> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://p4-lucat.eu/vocab/Treatment_Toxicity> ;
+                                               rdfs:subClassOf <http://p4-lucat.eu/vocab/TreatmentToxicity> ;
                                                rdfs:isDefinedBy "disha_purohit"@en ;
                                                rdfs:label "Patient_RT_Toxicity"@en .
 
@@ -6000,11 +6000,6 @@ xsd:date rdf:type rdfs:Datatype .
                                               rdfs:label "Treatment_Response" .
 
 
-###  http://p4-lucat.eu/vocab/Treatment_Toxicity
-<http://p4-lucat.eu/vocab/Treatment_Toxicity> rdf:type owl:Class ;
-                                              rdfs:subClassOf <http://p4-lucat.eu/vocab/Concept> ;
-                                              rdfs:isDefinedBy "disha_purohit"@en ;
-                                              rdfs:label "Treatment_Toxicity"@en .
 
 
 ###  http://p4-lucat.eu/vocab/TumorObservation
