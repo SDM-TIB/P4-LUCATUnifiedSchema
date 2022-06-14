@@ -2760,15 +2760,15 @@ xsd:date rdf:type rdfs:Datatype .
                                         rdfs:label "hasBirthDate" .
 
 
-###  http://p4-lucat.eu/vocab/hasCTPosition
-<http://p4-lucat.eu/vocab/hasCTPosition> rdf:type owl:DatatypeProperty ;
+###  http://p4-lucat.eu/vocab/hasPosition
+<http://p4-lucat.eu/vocab/hasPosition> rdf:type owl:DatatypeProperty ;
                                          rdfs:subPropertyOf owl:topDataProperty ;
                                          rdf:type owl:FunctionalProperty ;
-                                         rdfs:domain <http://p4-lucat.eu/vocab/Chemotherapy> ;
+                                         rdfs:domain <http://p4-lucat.eu/vocab/TreatmentToxicity> ;
                                          rdfs:range rdfs:Literal ;
-                                         rdfs:comment "Position of the chemotherapy treatment following a chronological order"@en ;
+                                         rdfs:comment "Position of the treatment following a chronological order"@en ;
                                          rdfs:isDefinedBy "disha_purohit"@en ;
-                                         rdfs:label "hasCTPosition"@en .
+                                         rdfs:label "hasPosition"@en .
 
 
 ###  http://p4-lucat.eu/vocab/hasCUIAnnotationCancerTypeOrgan
@@ -2796,14 +2796,6 @@ xsd:date rdf:type rdfs:Datatype .
                                                        rdfs:label "hasCardioVascularRiskFactor" .
 
 
-###  http://p4-lucat.eu/vocab/hasChemoTreatmentPosition
-<http://p4-lucat.eu/vocab/hasChemoTreatmentPosition> rdf:type owl:DatatypeProperty ;
-                                                     rdfs:subPropertyOf owl:topDataProperty ;
-                                                     rdfs:domain <http://p4-lucat.eu/vocab/LCPatient_CT> ;
-                                                     rdfs:range rdfs:Literal ;
-                                                     rdfs:comment "Chemotherapy position ID"@en ;
-                                                     rdfs:isDefinedBy "disha_purohit"@en ;
-                                                     rdfs:label "hasChemoTreatmentPosition"@en .
 
 ###  http://p4-lucat.eu/vocab/hasOtherTherapy
 <http://p4-lucat.eu/vocab/hasOtherTherapy> rdf:type owl:DatatypeProperty ;
@@ -5559,11 +5551,6 @@ xsd:date rdf:type rdfs:Datatype .
                                              rdfs:label "PatientSimilarity"@en .
 
 
-###  http://p4-lucat.eu/vocab/Patient_CT_Toxicity
-<http://p4-lucat.eu/vocab/Patient_CT_Toxicity> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://p4-lucat.eu/vocab/TreatmentToxicity> ;
-                                               rdfs:isDefinedBy "disha_purohit"@en ;
-                                               rdfs:label "Patient_CT_Toxicity"@en .
 
 
 ###  http://p4-lucat.eu/vocab/Patient_Cancer_Family
