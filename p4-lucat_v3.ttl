@@ -3229,7 +3229,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://p4-lucat.eu/vocab/hasOtherToxicity
 <http://p4-lucat.eu/vocab/hasOtherToxicity> rdf:type owl:DatatypeProperty ;
                                                  rdfs:subPropertyOf owl:topDataProperty ;
-                                                 rdfs:domain <http://p4-lucat.eu/vocab/otherToxicity> ;
+                                                 rdfs:domain <http://p4-lucat.eu/vocab/Toxicity> ;
                                                  rdfs:range rdfs:Literal ;
                                                  rdfs:comment "Other toxicity"@en ;
                                                  rdfs:isDefinedBy "disha_purohit"@en ;
@@ -3245,14 +3245,6 @@ xsd:date rdf:type rdfs:Datatype .
                                                           rdfs:isDefinedBy "disha_purohit"@en ;
                                                           rdfs:label "hasOtherResultMolecularMarkers"@en .
 
-
-###  http://p4-lucat.eu/vocab/hasOtherToxicity
-<http://p4-lucat.eu/vocab/hasOtherToxicity> rdf:type owl:DatatypeProperty ;
-                                            rdfs:subPropertyOf owl:topDataProperty ;
-                                            rdfs:domain <http://p4-lucat.eu/vocab/Patient> ;
-                                            rdfs:range rdfs:Literal ;
-                                            rdfs:isDefinedBy "Other Toxicity"@en ;
-                                            rdfs:label "hasOtherToxicity"@en .
 
 
 ###  http://p4-lucat.eu/vocab/hasOtherVersionAJCCTNM
