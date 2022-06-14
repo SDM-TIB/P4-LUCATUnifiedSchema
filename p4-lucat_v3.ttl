@@ -3375,12 +3375,6 @@ xsd:date rdf:type rdfs:Datatype .
                                           rdfs:label "hasSurgeryDate"@en .
 
 
-###  http://p4-lucat.eu/vocab/hasSurgeryPosition
-<http://p4-lucat.eu/vocab/hasSurgeryPosition> rdf:type owl:DatatypeProperty ;
-                                              rdfs:subPropertyOf owl:topDataProperty ;
-                                              rdf:type owl:FunctionalProperty ;
-                                              rdfs:range rdfs:Literal ;
-                                              rdfs:label "hasSurgeryPosition" .
 
 
 ###  http://p4-lucat.eu/vocab/hasSurgeryProcedureID
