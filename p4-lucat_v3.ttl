@@ -4739,7 +4739,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://p4-lucat.eu/vocab/Adjuvant
 <http://p4-lucat.eu/vocab/Adjuvant> rdf:type owl:Class ;
-                                   rdfs:subClassOf <http://p4-lucat.eu/vocab/NonOncologicalTreatment> ;
+                                   rdfs:subClassOf <http://p4-lucat.eu/vocab/OncologicalTreatment> ;
                                    <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
                                    <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
                                    rdfs:comment "A person who is receiving Adjuvant."@en ;
