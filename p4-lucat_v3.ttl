@@ -5414,7 +5414,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://p4-lucat.eu/vocab/Neoadjuvant
 <http://p4-lucat.eu/vocab/Neoadjuvant> rdf:type owl:Class ;
-                                   rdfs:subClassOf <http://p4-lucat.eu/vocab/NonOncologicalTreatment> ;
+                                   rdfs:subClassOf <http://p4-lucat.eu/vocab/OncologicalTreatment> ;
                                    <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
                                    <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
                                    rdfs:comment "A person who is receiving Neoadjuvant."@en ;
@@ -5503,7 +5503,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://p4-lucat.eu/vocab/PalliativeCare
 <http://p4-lucat.eu/vocab/PalliativeCare> rdf:type owl:Class ;
-                                   rdfs:subClassOf <http://p4-lucat.eu/vocab/NonOncologicalTreatment> ;
+                                   rdfs:subClassOf <http://p4-lucat.eu/vocab/OncologicalTreatment> ;
                                    <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
                                    <http://purl.org/dc/terms/modified> "2022-06-13"@en ;
                                    rdfs:comment "A person who is receiving palliative care."@en ;
@@ -5682,7 +5682,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://p4-lucat.eu/vocab/Prophylactic
 <http://p4-lucat.eu/vocab/Prophylactic> rdf:type owl:Class ;
-                                   rdfs:subClassOf <http://p4-lucat.eu/vocab/NonOncologicalTreatment> ;
+                                   rdfs:subClassOf <http://p4-lucat.eu/vocab/OncologicalTreatment> ;
                                    <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
                                    <http://purl.org/dc/terms/modified> "2022-06-14"@en ;
                                    rdfs:comment "A person who is receiving Prophylactic."@en ;
@@ -5727,7 +5727,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://p4-lucat.eu/vocab/Radical
 <http://p4-lucat.eu/vocab/Radical> rdf:type owl:Class ;
-                                   rdfs:subClassOf <http://p4-lucat.eu/vocab/NonOncologicalTreatment> ;
+                                   rdfs:subClassOf <http://p4-lucat.eu/vocab/OncologicalTreatment> ;
                                    <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
                                    <http://purl.org/dc/terms/modified> "2022-06-14"@en ;
                                    rdfs:comment "A person who is receiving Radical."@en ;
