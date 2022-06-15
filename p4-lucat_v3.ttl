@@ -4875,6 +4875,11 @@ xsd:date rdf:type rdfs:Datatype .
                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/Concept> ;
                                        rdfs:label "Cancer_type" .
 
+###  http://p4-lucat.eu/vocab/Chemotherapy
+<http://p4-lucat.eu/vocab/Chemotherapy-Radiotherapy> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/OncologicalTreatment> ;
+                                        rdfs:isDefinedBy "emetis_niazmand"@en ;
+                                        rdfs:label "Chemotherapy-Radiotherapy" .
 
 ###  http://p4-lucat.eu/vocab/Chemotherapy
 <http://p4-lucat.eu/vocab/Chemotherapy> rdf:type owl:Class ;
