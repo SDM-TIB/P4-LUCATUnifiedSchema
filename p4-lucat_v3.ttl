@@ -574,10 +574,6 @@ xsd:date rdf:type rdfs:Datatype .
                                           rdfs:label "hasComorbidity"@en .
 
 
-###  http://p4-lucat.eu/vocab/hasDate
-<http://p4-lucat.eu/vocab/hasDate> rdf:type owl:ObjectProperty ;
-                                   rdfs:subPropertyOf owl:topObjectProperty .
-
 
 ###  http://p4-lucat.eu/vocab/hasDeathCause
 <http://p4-lucat.eu/vocab/hasDeathCause> rdf:type owl:ObjectProperty ;
@@ -1338,23 +1334,36 @@ xsd:date rdf:type rdfs:Datatype .
                                         rdfs:label "hasTumor_tnm"@en .
 
 
-###  http://p4-lucat.eu/vocab/hasRelapseProgression
-<http://p4-lucat.eu/vocab/hasRelapseProgression> rdf:type owl:ObjectProperty ;
+###  http://p4-lucat.eu/vocab/hasRelapse
+<http://p4-lucat.eu/vocab/hasRelapse> rdf:type owl:ObjectProperty ;
                                           rdfs:subPropertyOf owl:topObjectProperty ;
                                           rdfs:domain <http://p4-lucat.eu/vocab/Patient> ;
                                           rdfs:range <http://p4-lucat.eu/vocab/Patient_Relapse> ;
-                                          rdfs:comment "Progression, No progression, Relapse"^^xsd:string ;
+                                          rdfs:comment "Relapse"^^xsd:string ;
                                           rdfs:isDefinedBy "disha_purohit"^^xsd:string ;
-                                          rdfs:label "hasRelapseProgression" .
+                                          rdfs:label "hasRelapse" .
 
-###  http://p4-lucat.eu/vocab/hasTypeRelapseProgression
-<http://p4-lucat.eu/vocab/hasTypeRelapseProgression> rdf:type owl:ObjectProperty ;
+
+###  http://p4-lucat.eu/vocab/hasProgression
+<http://p4-lucat.eu/vocab/hasProgression> rdf:type owl:ObjectProperty ;
                                           rdfs:subPropertyOf owl:topObjectProperty ;
                                           rdfs:domain <http://p4-lucat.eu/vocab/Patient> ;
-                                          rdfs:range <http://p4-lucat.eu/vocab/Patient_Relapse> ;
-                                          rdfs:comment "Type of Relapse or Progression"^^xsd:string ;
-                                          rdfs:isDefinedBy "emetis_niazmand"^^xsd:string ;
-                                          rdfs:label "hasTypeRelapseProgression" .
+                                          rdfs:range <http://p4-lucat.eu/vocab/Patient_Progression> ;
+                                          rdfs:comment "Progression"^^xsd:string ;
+                                          rdfs:isDefinedBy "disha_purohit"^^xsd:string ;
+                                          rdfs:label "hasProgression" .
+
+###  http://p4-lucat.eu/vocab/hasNoProgression
+<http://p4-lucat.eu/vocab/hasNoProgression> rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf owl:topObjectProperty ;
+                                          rdfs:domain <http://p4-lucat.eu/vocab/Patient> ;
+                                          rdfs:range <http://p4-lucat.eu/vocab/Patient_NoProgression> ;
+                                          rdfs:comment "NoProgression"^^xsd:string ;
+                                          rdfs:isDefinedBy "disha_purohit"^^xsd:string ;
+                                          rdfs:label "hasNoProgression" .
+
+
+
 
 ###  http://p4-lucat.eu/vocab/hasTypeSurgery
 <http://p4-lucat.eu/vocab/hasTypeSurgery> rdf:type owl:ObjectProperty ;
@@ -1365,14 +1374,6 @@ xsd:date rdf:type rdfs:Datatype .
                                           rdfs:label "hasTypeSurgery"@en .
 
 
-###  http://p4-lucat.eu/vocab/hasTypeTherapyRelapseProgression
-<http://p4-lucat.eu/vocab/hasTypeTherapyRelapseProgression> rdf:type owl:ObjectProperty ;
-                                                            rdfs:subPropertyOf owl:topObjectProperty ;
-                                                            rdfs:domain <http://p4-lucat.eu/vocab/Patient> ;
-                                                            rdfs:range <http://p4-lucat.eu/vocab/Patient_Relapse> ;
-                                                            rdfs:comment "Type of therapy to progression / relapse of disease"@en ;
-                                                            rdfs:isDefinedBy "emetis_niazmand"@en ;
-                                                            rdfs:label "hasTypeTherapyRelapseProgression"@en .
 
 
 ###  http://p4-lucat.eu/vocab/hasTypeTreatmentOligometastatic
@@ -3171,6 +3172,18 @@ xsd:date rdf:type rdfs:Datatype .
                                                rdfs:label "hasNumberYearSmoker"@en .
 
 
+###  http://p4-lucat.eu/vocab/hasType
+<http://p4-lucat.eu/vocab/hasType> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf owl:topDataProperty ;
+                                          rdfs:domain <http://p4-lucat.eu/vocab/Relapse>,
+                                                      <http://p4-lucat.eu/vocab/Progression>,
+                                                      <http://p4-lucat.eu/vocab/NoProgression>;
+                                          rdfs:range rdfs:Literal ;
+                                          rdfs:comment "Type of Relapse or Progression"^^xsd:string ;
+                                          rdfs:isDefinedBy "emetis_niazmand"^^xsd:string ;
+                                          rdfs:label "hasType" .
+
+
 ###  http://p4-lucat.eu/vocab/hasOtherDiagnosisLocation
 <http://p4-lucat.eu/vocab/hasOtherDiagnosisLocation> rdf:type owl:DatatypeProperty ;
                                                      rdfs:subPropertyOf owl:topDataProperty ;
@@ -3300,21 +3313,13 @@ xsd:date rdf:type rdfs:Datatype .
                                                      rdfs:label "hasTreatmentPosition"@en .
 
 
-###  http://p4-lucat.eu/vocab/hasRelapseDate
-<http://p4-lucat.eu/vocab/hasRelapseDate> rdf:type owl:DatatypeProperty ;
-                                          rdfs:subPropertyOf owl:topDataProperty ;
-                                          rdf:type owl:FunctionalProperty ;
-                                          rdfs:domain <http://p4-lucat.eu/vocab/Relapse> ;
-                                          rdfs:range rdfs:Literal ;
-                                          rdfs:comment "Date of progression / relapse"@en ;
-                                          rdfs:isDefinedBy "emetis_niazmand"@en ;
-                                          rdfs:label "hasRelapseDate"@en .
 
-
-###  http://p4-lucat.eu/vocab/hasRelapsePosition
-<http://p4-lucat.eu/vocab/hasRelapsePosition> rdf:type owl:DatatypeProperty ;
+###  http://p4-lucat.eu/vocab/hasPosition
+<http://p4-lucat.eu/vocab/hasPosition> rdf:type owl:DatatypeProperty ;
                                               rdfs:subPropertyOf owl:topDataProperty ;
-                                              rdfs:domain <http://p4-lucat.eu/vocab/Relapse> ;
+                                              rdfs:domain <http://p4-lucat.eu/vocab/Relapse>,
+                                                          <http://p4-lucat.eu/vocab/Progression>,
+                                                          <http://p4-lucat.eu/vocab/NoProgression>;
                                               rdfs:range rdfs:Literal .
 
 
