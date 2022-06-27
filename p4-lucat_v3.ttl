@@ -5582,6 +5582,18 @@ xsd:date rdf:type rdfs:Datatype .
                                            rdfs:label "Patient_Relapse" .
 
 
+###  http://p4-lucat.eu/vocab/Patient_Progression
+<http://p4-lucat.eu/vocab/Patient_Progression> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://p4-lucat.eu/vocab/Progression> ;
+                                           rdfs:label "Patient_Progression" .
+
+
+
+###  http://p4-lucat.eu/vocab/Patient_NoProgression
+<http://p4-lucat.eu/vocab/Patient_NoProgression> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://p4-lucat.eu/vocab/NoProgression> ;
+                                           rdfs:label "Patient_NoProgression" .
+
 ###  http://p4-lucat.eu/vocab/Patient_Status
 <http://p4-lucat.eu/vocab/Patient_Status> rdf:type owl:Class ;
                                           rdfs:subClassOf <http://p4-lucat.eu/vocab/Concept> ;
@@ -5748,6 +5760,17 @@ xsd:date rdf:type rdfs:Datatype .
 <http://p4-lucat.eu/vocab/Relapse> rdf:type owl:Class ;
                                    rdfs:subClassOf <http://p4-lucat.eu/vocab/Concept> ;
                                    rdfs:label "Relapse" .
+
+
+###  http://p4-lucat.eu/vocab/Progression
+<http://p4-lucat.eu/vocab/Progression> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://p4-lucat.eu/vocab/Concept> ;
+                                   rdfs:label "Progression" .
+
+###  http://p4-lucat.eu/vocab/NoProgression
+<http://p4-lucat.eu/vocab/NoProgression> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://p4-lucat.eu/vocab/Concept> ;
+                                   rdfs:label "NoProgression" .
 
 
 ###  http://p4-lucat.eu/vocab/Relapse_Location
