@@ -5941,7 +5941,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://p4-lucat.eu/vocab/Target
 <http://p4-lucat.eu/vocab/Target> rdf:type owl:Class ;
-                                  rdfs:subClassOf <http://p4-lucat.eu/vocab/Concept> ;
+                                  rdfs:subClassOf <http://p4-lucat.eu/vocab/Protein> ;
                                   <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> ;
                                   <http://purl.org/dc/terms/modified> "2018-10-30"@en ;
                                   rdfs:comment "A drug target is a molecule in the body, usually a protein, that is intrinsically associated with a particular disease process and that could be addressed by a drug to produce a desired therapeutic effect."@en ;
