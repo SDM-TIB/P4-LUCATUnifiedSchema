@@ -628,7 +628,7 @@ xsd:date rdf:type rdfs:Datatype .
 <http://p4-lucat.eu/vocab/hasDiagnosisCancerStage> rdf:type owl:ObjectProperty ;
                                                    rdfs:subPropertyOf owl:topObjectProperty ;
                                                    rdfs:domain <http://p4-lucat.eu/vocab/Diagnosis> ;
-                                                   rdfs:range <http://p4-lucat.eu/vocab/Stages> ;
+                                                   rdfs:range <http://p4-lucat.eu/vocab/Stage> ;
                                                    rdfs:comment "Diagnosis for Cancer Stage"@en ;
                                                    rdfs:isDefinedBy "emetis_niazmand"@en ;
                                                    rdfs:label "hasDiagnosisCancerStage"@en .
@@ -638,7 +638,7 @@ xsd:date rdf:type rdfs:Datatype .
 <http://p4-lucat.eu/vocab/hasDiagnosisCancerStageCategory> rdf:type owl:ObjectProperty ;
                                                            rdfs:subPropertyOf owl:topObjectProperty ;
                                                            rdfs:domain <http://p4-lucat.eu/vocab/Diagnosis> ;
-                                                           rdfs:range <http://p4-lucat.eu/vocab/Stages> ;
+                                                           rdfs:range <http://p4-lucat.eu/vocab/Stage> ;
                                                            rdfs:comment "Category of Diagnosis for Cancer Stage"^^xsd:string ;
                                                            rdfs:isDefinedBy "emetis_niazmand"@en ;
                                                            rdfs:label "hasDiagnosisCancerStageCategory"@en .
@@ -1461,7 +1461,7 @@ xsd:date rdf:type rdfs:Datatype .
 <http://p4-lucat.eu/vocab/lastCancerStage> rdf:type owl:ObjectProperty ;
                                            rdfs:subPropertyOf owl:topObjectProperty ;
                                            rdfs:domain <http://p4-lucat.eu/vocab/LCPatient> ;
-                                           rdfs:range <http://p4-lucat.eu/vocab/Stages> ;
+                                           rdfs:range <http://p4-lucat.eu/vocab/Stage> ;
                                            rdfs:label "lastCancerStage" .
 
 
@@ -1469,7 +1469,7 @@ xsd:date rdf:type rdfs:Datatype .
 <http://p4-lucat.eu/vocab/lastCancerStageCategory> rdf:type owl:ObjectProperty ;
                                                    rdfs:subPropertyOf owl:topObjectProperty ;
                                                    rdfs:domain <http://p4-lucat.eu/vocab/LCPatient> ;
-                                                   rdfs:range <http://p4-lucat.eu/vocab/Stages> ;
+                                                   rdfs:range <http://p4-lucat.eu/vocab/Stage> ;
                                                    rdfs:isDefinedBy "emetis_niazmand"@en ;
                                                    rdfs:label "lastCancerStageCategory"@en .
 
@@ -4310,7 +4310,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://p4-lucat.eu/vocab/stageIVDate
 <http://p4-lucat.eu/vocab/stageIVDate> rdf:type owl:DatatypeProperty ;
                                        rdfs:subPropertyOf owl:topDataProperty ;
-                                       rdfs:domain <http://p4-lucat.eu/vocab/Stages> ;
+                                       rdfs:domain <http://p4-lucat.eu/vocab/Stage> ;
                                        rdfs:range rdfs:Literal ;
                                        rdfs:isDefinedBy "disha_purohit"@en ;
                                        rdfs:label "stageIVDate"@en .
@@ -5893,8 +5893,13 @@ xsd:date rdf:type rdfs:Datatype .
                                       rdfs:label "SourceName"@en .
 
 
-###  http://p4-lucat.eu/vocab/Stages
-<http://p4-lucat.eu/vocab/Stages> rdf:type owl:Class .
+###  http://p4-lucat.eu/vocab/Stage
+<http://p4-lucat.eu/vocab/Stage> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://p4-lucat.eu/vocab/Diagnosis> ;
+                                      <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/emetis-niazmand/> ;
+                                      <http://purl.org/dc/terms/modified> "2022-07-11"@en ;
+                                      rdfs:comment "Stage."@en ;
+                                      rdfs:label "Stage"@en .
 
 
 ###  http://p4-lucat.eu/vocab/Status
