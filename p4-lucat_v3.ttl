@@ -5901,6 +5901,20 @@ xsd:date rdf:type rdfs:Datatype .
                                       rdfs:comment "Stage."@en ;
                                       rdfs:label "Stage"@en .
 
+###  http://p4-lucat.eu/vocab/StageI
+<http://p4-lucat.eu/vocab/I> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://p4-lucat.eu/vocab/Stage> ;
+                                      <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/emetis-niazmand/> ;
+                                      <http://purl.org/dc/terms/modified> "2022-07-11"@en ;
+                                      rdfs:comment "StageI."@en ;
+                                      rdfs:label "StageI"@en .
+###  http://p4-lucat.eu/vocab/StageIA
+<http://p4-lucat.eu/vocab/IA> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://p4-lucat.eu/vocab/I> ;
+                                      <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/emetis-niazmand/> ;
+                                      <http://purl.org/dc/terms/modified> "2022-07-11"@en ;
+                                      rdfs:comment "StageIA."@en ;
+                                      rdfs:label "StageIA"@en .
 
 ###  http://p4-lucat.eu/vocab/Status
 <http://p4-lucat.eu/vocab/Status> rdf:type owl:Class ;
