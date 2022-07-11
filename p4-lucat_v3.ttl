@@ -5916,6 +5916,99 @@ xsd:date rdf:type rdfs:Datatype .
                                       rdfs:comment "StageIA."@en ;
                                       rdfs:label "StageIA"@en .
 
+###  http://p4-lucat.eu/vocab/StageIB
+<http://p4-lucat.eu/vocab/Stage> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://p4-lucat.eu/vocab/I> ;
+                                      <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                      <http://purl.org/dc/terms/modified> "2022-07-11"@en ;
+                                      rdfs:comment "StageIB."@en ;
+                                      rdfs:label "StageIB"@en .
+
+###  http://p4-lucat.eu/vocab/StageII
+<http://p4-lucat.eu/vocab/Stage> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://p4-lucat.eu/vocab/Stage> ;
+                                      <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                      <http://purl.org/dc/terms/modified> "2022-07-11"@en ;
+                                      rdfs:comment "StageII."@en ;
+                                      rdfs:label "StageII"@en .
+
+###  http://p4-lucat.eu/vocab/StageIIA
+<http://p4-lucat.eu/vocab/Stage> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://p4-lucat.eu/vocab/II> ;
+                                      <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                      <http://purl.org/dc/terms/modified> "2022-07-11"@en ;
+                                      rdfs:comment "StageIIA."@en ;
+                                      rdfs:label "StageIIA"@en .
+
+###  http://p4-lucat.eu/vocab/StageIIB
+<http://p4-lucat.eu/vocab/Stage> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://p4-lucat.eu/vocab/II> ;
+                                      <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                      <http://purl.org/dc/terms/modified> "2022-07-11"@en ;
+                                      rdfs:comment "StageIIB."@en ;
+                                      rdfs:label "StageIIB"@en .
+
+
+###  http://p4-lucat.eu/vocab/StageIII
+<http://p4-lucat.eu/vocab/Stage> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://p4-lucat.eu/vocab/Stage> ;
+                                      <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                      <http://purl.org/dc/terms/modified> "2022-07-11"@en ;
+                                      rdfs:comment "StageIII."@en ;
+                                      rdfs:label "StageIII"@en .
+
+###  http://p4-lucat.eu/vocab/StageIIIA
+<http://p4-lucat.eu/vocab/Stage> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://p4-lucat.eu/vocab/III> ;
+                                      <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                      <http://purl.org/dc/terms/modified> "2022-07-11"@en ;
+                                      rdfs:comment "StageIIIA."@en ;
+                                      rdfs:label "StageIIIA"@en .
+
+###  http://p4-lucat.eu/vocab/StageIIIB
+<http://p4-lucat.eu/vocab/Stage> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://p4-lucat.eu/vocab/III> ;
+                                      <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                      <http://purl.org/dc/terms/modified> "2022-07-11"@en ;
+                                      rdfs:comment "StageIIIB."@en ;
+                                      rdfs:label "StageIIIB"@en .
+
+
+###  http://p4-lucat.eu/vocab/StageIIIC
+<http://p4-lucat.eu/vocab/Stage> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://p4-lucat.eu/vocab/III> ;
+                                      <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                      <http://purl.org/dc/terms/modified> "2022-07-11"@en ;
+                                      rdfs:comment "StageIIIC."@en ;
+                                      rdfs:label "StageIIIC"@en .
+
+
+###  http://p4-lucat.eu/vocab/StageIV
+<http://p4-lucat.eu/vocab/Stage> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://p4-lucat.eu/vocab/Stage> ;
+                                      <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                      <http://purl.org/dc/terms/modified> "2022-07-11"@en ;
+                                      rdfs:comment "StageIV."@en ;
+                                      rdfs:label "StageIV"@en .
+
+###  http://p4-lucat.eu/vocab/StageIVA
+<http://p4-lucat.eu/vocab/Stage> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://p4-lucat.eu/vocab/IV> ;
+                                      <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                      <http://purl.org/dc/terms/modified> "2022-07-11"@en ;
+                                      rdfs:comment "StageIVA."@en ;
+                                      rdfs:label "StageIVA"@en .
+
+###  http://p4-lucat.eu/vocab/StageIVB
+<http://p4-lucat.eu/vocab/Stage> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://p4-lucat.eu/vocab/IV> ;
+                                      <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha_purohit/> ;
+                                      <http://purl.org/dc/terms/modified> "2022-07-11"@en ;
+                                      rdfs:comment "StageIVB."@en ;
+                                      rdfs:label "StageIVB"@en .
+
+
+
 ###  http://p4-lucat.eu/vocab/Status
 <http://p4-lucat.eu/vocab/Status> rdf:type owl:Class ;
                                   rdfs:subClassOf <http://p4-lucat.eu/vocab/Concept> ;
