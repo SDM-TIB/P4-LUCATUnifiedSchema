@@ -899,7 +899,8 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://p4-lucat.eu/vocab/hasOncologicalSurgery
 <http://p4-lucat.eu/vocab/hasOncologicalSurgery> rdf:type owl:ObjectProperty ;
-                                                 rdfs:subPropertyOf <http://p4-lucat.eu/vocab/hasOncologicalTreatment> ;
+                                                 rdfs:subPropertyOf <http://p4-lucat.eu/vocab/hasOncologicalTreatment> ,
+                                                                    <http://p4-lucat.eu/vocab/hasTreatment> ;
                                                  rdfs:domain <http://p4-lucat.eu/vocab/LCPatient> ;
                                                  rdfs:range <http://p4-lucat.eu/vocab/OncologicalSurgery> ;
                                                  <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha-purohit/> ;
@@ -1242,7 +1243,9 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://p4-lucat.eu/vocab/hasSurgery
 <http://p4-lucat.eu/vocab/hasSurgery> rdf:type owl:ObjectProperty ;
-                                      rdfs:subPropertyOf owl:topObjectProperty ;
+                                      rdfs:subPropertyOf owl:topObjectProperty ,
+                                                         <http://p4-lucat.eu/vocab/hasOncologicalTreatment> ,
+                                                         <http://p4-lucat.eu/vocab/hasTreatment> ;
                                       rdfs:domain <http://p4-lucat.eu/vocab/Patient> ;
                                       rdfs:range <http://p4-lucat.eu/vocab/Treatment> ;
                                       rdfs:label "hasSurgery" .
