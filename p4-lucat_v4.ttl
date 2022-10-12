@@ -544,14 +544,17 @@ xsd:date rdf:type rdfs:Datatype .
                                              rdfs:label "hasChemoTreatment"@en .
 
 
-###  http://p4-lucat.eu/vocab/hasChemotherapy
-<http://p4-lucat.eu/vocab/hasChemotherapy> rdf:type owl:ObjectProperty ;
-                                           rdfs:range <http://p4-lucat.eu/vocab/Drug> ,
+###  http://p4-lucat.eu/vocab/hasChemotherapyDrug
+<http://p4-lucat.eu/vocab/hasChemotherapyDrug> rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf owl:topObjectProperty ,
+                                                              <http://p4-lucat.eu/vocab/hasDrugGroup> ;
+                                           rdfs:domain <http://p4-lucat.eu/vocab/LCPatient> ;
+                                           rdfs:range <http://p4-lucat.eu/vocab/DrugGroup> ,
                                                       <http://p4-lucat.eu/vocab/Treatment> ;
-                                           <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> ;
-                                           <http://purl.org/dc/terms/modified> "2018-11-27"@en ;
+                                           <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/disha-purohit/> ;
+                                           <http://purl.org/dc/terms/modified> "20122-10-12"@en ;
                                            rdfs:comment "Connection between patient with lung cancer and the Chemotherapy drugs that has been prescribed."@en ;
-                                           rdfs:label "hasChemotherapy"@en .
+                                           rdfs:label "hasChemotherapyDrug"@en .
 
 
 ###  http://p4-lucat.eu/vocab/hasClassChemoTreatment
