@@ -536,12 +536,14 @@ xsd:date rdf:type rdfs:Datatype .
                                               rdfs:label "hasCancerTypeOrgan"@en .
 
 
-###  http://p4-lucat.eu/vocab/hasChemoTreatment
-<http://p4-lucat.eu/vocab/hasChemoTreatment> rdf:type owl:ObjectProperty ;
-                                             rdfs:subPropertyOf owl:topObjectProperty ;
-                                             rdfs:range <http://p4-lucat.eu/vocab/Chemotherapy> ;
+###  http://p4-lucat.eu/vocab/hasReceivedChemotherapy
+<http://p4-lucat.eu/vocab/hasReceivedChemotherapy> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ,
+                                                                <http://p4-lucat.eu/vocab/hasReceivedTreatment> ; 
+                                             rdfs:domain <http://p4-lucat.eu/vocab/LCPatient> ;
+                                             rdfs:range <http://p4-lucat.eu/vocab/Treatment> ;
                                              rdfs:isDefinedBy "disha_purohit"@en ;
-                                             rdfs:label "hasChemoTreatment"@en .
+                                             rdfs:label "hasReceivedChemotherapy"@en .
 
 
 ###  http://p4-lucat.eu/vocab/hasChemotherapyDrug
@@ -1164,9 +1166,10 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://p4-lucat.eu/vocab/hasReceivedRadiotherapy
 <http://p4-lucat.eu/vocab/hasReceivedRadiotherapy> rdf:type owl:ObjectProperty ;
-                                                   rdfs:subPropertyOf owl:topObjectProperty ;
-                                                   rdfs:domain <http://p4-lucat.eu/vocab/Patient> ;
-                                                   rdfs:range <http://p4-lucat.eu/vocab/RT_Information> ;
+                                                   rdfs:subPropertyOf owl:topObjectProperty ,
+                                                                      <http://p4-lucat.eu/vocab/hasReceivedTreatment> ;
+                                                   rdfs:domain <http://p4-lucat.eu/vocab/LCPatient> ;
+                                                   rdfs:range <http://p4-lucat.eu/vocab/Treatment> ;
                                                    rdfs:comment "Patient received radiotherapy"@en ;
                                                    rdfs:isDefinedBy "disha_purohit"@en ;
                                                    rdfs:label "hasReceivedRadiotherapy"@en .
@@ -1174,10 +1177,12 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://p4-lucat.eu/vocab/hasReceivedSurgery
 <http://p4-lucat.eu/vocab/hasReceivedSurgery> rdf:type owl:ObjectProperty ;
-                                              rdfs:subPropertyOf owl:topObjectProperty ;
-                                              rdfs:range <http://p4-lucat.eu/vocab/Surgery_Information> ;
+                                              rdfs:subPropertyOf owl:topObjectProperty ,
+                                                                 <http://p4-lucat.eu/vocab/hasReceivedTreatment> ;
+                                              rdfs:domain <http://p4-lucat.eu/vocab/LCPatient> ;
+                                              rdfs:range <http://p4-lucat.eu/vocab/Treatment> ;
                                               rdfs:comment "Indicator variable describing if the patient has received any type of surgery for the thoracic tumor"@en ;
-                                              rdfs:isDefinedBy "emetis_niazmand"@en ;
+                                              rdfs:isDefinedBy "disha_purohit"@en ;
                                               rdfs:label "hasReceivedSurgery"@en .
 
 
