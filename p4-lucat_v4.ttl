@@ -1498,6 +1498,24 @@ xsd:date rdf:type rdfs:Datatype .
                                                    rdfs:label "lastCancerStageCategory"@en .
 
 
+###  http://p4-lucat.eu/vocab/objectDrug
+<http://p4-lucat.eu/vocab/objectDrug> rdf:type owl:ObjectProperty ;
+                                       rdfs:domain <http://p4-lucat.eu/vocab/DrugDrugInteraction> ;
+                                       rdfs:range <http://p4-lucat.eu/vocab/Drug> ;
+                                       <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> ;
+                                       <http://purl.org/dc/terms/modified> "2020-07-24"@en ;
+                                       rdfs:comment "Relation which connects the drug drug interacion to the object drug."@en ;
+                                       rdfs:label "objectDrug"@en .
+
+###  http://p4-lucat.eu/vocab/precipitantDrug
+<http://p4-lucat.eu/vocab/precipitantDrug> rdf:type owl:ObjectProperty ;
+                                            rdfs:domain <http://p4-lucat.eu/vocab/DrugDrugInteraction> ;
+                                            rdfs:range <http://p4-lucat.eu/vocab/Drug> ;
+                                            <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> ;
+                                            <http://purl.org/dc/terms/modified> "2020-07-24"@en ;
+                                            rdfs:comment "Relation which connects the drug drug interacion to the precipitant drug."@en ;
+                                            rdfs:label "precipitantDrug"@en .
+
 ###  http://p4-lucat.eu/vocab/lungLaterality
 <http://p4-lucat.eu/vocab/lungLaterality> rdf:type owl:ObjectProperty ;
                                           rdfs:domain <http://p4-lucat.eu/vocab/Organ> ;
