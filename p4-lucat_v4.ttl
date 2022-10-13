@@ -291,6 +291,7 @@ xsd:date rdf:type rdfs:Datatype .
                                   rdfs:comment "Gender value of the patient."@en ;
                                   rdfs:label "hasGender"@en .
 
+
 ###  http://p4-lucat.eu/vocab/hasRace
 <http://p4-lucat.eu/vocab/hasRace> rdf:type owl:ObjectProperty ;
                                   rdfs:domain <http://p4-lucat.eu/vocab/LCPatient> ;
@@ -3654,6 +3655,15 @@ xsd:date rdf:type rdfs:Datatype .
                                   rdfs:label "minAge"@en ;
                                   owl:versionInfo "v1.0"@en .
 
+###  http://p4-lucat.eu/vocab/hasAge
+<http://p4-lucat.eu/vocab/hasAge> rdf:type owl:DatatypeProperty ;
+                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                  rdfs:domain <http://p4-lucat.eu/vocab/LCPatient> ;
+                                  rdfs:range xsd:int ;
+                                  <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/emetis-niazmand/> ;
+                                  <http://purl.org/dc/terms/modified> "2022-01-14"@en ;
+                                  rdfs:comment "Age of the patient."@en ;
+                                  rdfs:label "hasAge"@en .
 
 ###  http://p4-lucat.eu/vocab/modalityLabel
 <http://p4-lucat.eu/vocab/modalityLabel> rdf:type owl:DatatypeProperty ;
@@ -5142,6 +5152,12 @@ xsd:date rdf:type rdfs:Datatype .
                                   rdfs:comment "The gender of the patients."@en ;
                                   rdfs:label "Gender"@en .
 
+###  http://p4-lucat.eu/vocab/Age
+<http://p4-lucat.eu/vocab/Age> rdf:type owl:Class ;
+                                  <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/emetis-niazmand/> ;
+                                  <http://purl.org/dc/terms/modified> "2022-09-27"@en ;
+                                  rdfs:comment "The age of the patients."@en ;
+                                  rdfs:label "Age"@en .
 
 ###  http://p4-lucat.eu/vocab/Gene
 <http://p4-lucat.eu/vocab/Gene> rdf:type owl:Class .
