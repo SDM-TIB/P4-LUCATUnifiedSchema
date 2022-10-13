@@ -1538,15 +1538,6 @@ xsd:date rdf:type rdfs:Datatype .
                                     rdfs:label "modality"@en .
 
 
-###  http://p4-lucat.eu/vocab/object_drug
-<http://p4-lucat.eu/vocab/object_drug> rdf:type owl:ObjectProperty ;
-                                       rdfs:domain <http://p4-lucat.eu/vocab/DrugDrugInteraction> ;
-                                       rdfs:range <http://p4-lucat.eu/vocab/Drug> ;
-                                       <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> ;
-                                       <http://purl.org/dc/terms/modified> "2020-07-24"@en ;
-                                       rdfs:comment "Relation which connects the drug drug interacion to the object drug."@en ;
-                                       rdfs:label "object_drug"@en .
-
 
 ###  http://p4-lucat.eu/vocab/patientPosition
 <http://p4-lucat.eu/vocab/patientPosition> rdf:type owl:ObjectProperty ;
@@ -1562,15 +1553,6 @@ xsd:date rdf:type rdfs:Datatype .
 <http://p4-lucat.eu/vocab/placeOfDeath> rdf:type owl:ObjectProperty ;
                                         rdfs:subPropertyOf owl:topObjectProperty .
 
-
-###  http://p4-lucat.eu/vocab/precipitant_drug
-<http://p4-lucat.eu/vocab/precipitant_drug> rdf:type owl:ObjectProperty ;
-                                            rdfs:domain <http://p4-lucat.eu/vocab/DrugDrugInteraction> ;
-                                            rdfs:range <http://p4-lucat.eu/vocab/Drug> ;
-                                            <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> ;
-                                            <http://purl.org/dc/terms/modified> "2020-07-24"@en ;
-                                            rdfs:comment "Relation which connects the drug drug interacion to the precipitant drug."@en ;
-                                            rdfs:label "precipitant_drug"@en .
 
 
 ###  http://p4-lucat.eu/vocab/provenance
