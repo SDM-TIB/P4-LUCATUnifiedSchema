@@ -5059,13 +5059,13 @@ xsd:date rdf:type rdfs:Datatype .
                                                 rdfs:label "DrugEnzymePrediction"@en .
 
 
-###  http://p4-lucat.eu/vocab/DrugGroup
-<http://p4-lucat.eu/vocab/DrugGroup> rdf:type owl:Class ;
+###  http://p4-lucat.eu/vocab/Drug
+<http://p4-lucat.eu/vocab/Drug> rdf:type owl:Class ;
                                      rdfs:subClassOf <http://p4-lucat.eu/vocab/Concept> ;
                                      <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> ;
                                      <http://purl.org/dc/terms/modified> "2018-10-04"@en ;
                                      rdfs:comment "The type of drugs that has been prescribed to the patient."@en ;
-                                     rdfs:label "DrugGroup"@en .
+                                     rdfs:label "Drug"@en .
 
 
 ###  http://p4-lucat.eu/vocab/DrugSideEffect
