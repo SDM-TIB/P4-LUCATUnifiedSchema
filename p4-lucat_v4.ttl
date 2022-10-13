@@ -2249,17 +2249,6 @@ xsd:date rdf:type rdfs:Datatype .
 
 
 
-
-###  http://p4-lucat.eu/vocab/drugList
-<http://p4-lucat.eu/vocab/drugList> rdf:type owl:DatatypeProperty ;
-                                         rdfs:domain <http://p4-lucat.eu/vocab/LCPatient> ;
-                                         rdfs:range rdfs:Literal ;
-                                         <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/maria-isabel-castellanos/> ;
-                                         <http://purl.org/dc/terms/modified> "2018-11-27"@en ;
-                                         rdfs:comment "." ;
-                                         rdfs:label "drugList"@en .
-
-
 ###  http://p4-lucat.eu/vocab/drugLabel
 <http://p4-lucat.eu/vocab/drugLabel> rdf:type owl:DatatypeProperty ;
                                      rdfs:domain <http://p4-lucat.eu/vocab/Drug> ;
