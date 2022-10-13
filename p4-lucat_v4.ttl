@@ -4257,6 +4257,23 @@ xsd:date rdf:type rdfs:Datatype .
                                              
                                        
 
+###  http://p4-lucat.eu/vocab/PharmacokyneticDrugDrugInteraction
+<http://p4-lucat.eu/vocab/PharmacokyneticDrugDrugInteraction> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://p4-lucat.eu/vocab/DrugDrugInteraction> ;
+                                           <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/emetis-niazmand/> ;
+                                           <http://purl.org/dc/terms/modified> "2022-05-19"@en ;
+                                           rdfs:comment "Represents the non-symmetric relation between drugs."@en ;
+                                           rdfs:label "PharmacokyneticDrugDrugInteraction"@en .
+
+
+
+###  http://p4-lucat.eu/vocab/PharmacodynamicDrugDrugInteraction
+<http://p4-lucat.eu/vocab/PharmacodynamicDrugDrugInteraction> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://p4-lucat.eu/vocab/DrugDrugInteraction> ;
+                                           <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/emetis-niazmand/> ;
+                                           <http://purl.org/dc/terms/modified> "2022-05-19"@en ;
+                                           rdfs:comment "Represents the symmetric relation between drugs."@en ;
+                                           rdfs:label "PharmacodynamicDrugDrugInteraction"@en .
 
 ###  http://p4-lucat.eu/vocab/semanticTypeID
 <http://p4-lucat.eu/vocab/semanticTypeID> rdf:type owl:DatatypeProperty ;
@@ -6086,14 +6103,6 @@ xsd:date rdf:type rdfs:Datatype .
                                     rdfs:isDefinedBy "emetis_niazmand"@en ;
                                     rdfs:label "Survival"@en .
 
-
-###  http://p4-lucat.eu/vocab/SymmetricDrugDrugInteraction
-<http://p4-lucat.eu/vocab/SymmetricDrugDrugInteraction> rdf:type owl:Class ;
-                                                        rdfs:subClassOf <http://p4-lucat.eu/vocab/Interaction> ;
-                                                        <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> ;
-                                                        <http://purl.org/dc/terms/modified> "2020-07-24"@en ;
-                                                        rdfs:comment "Represents the symmetric relation between drugs."@en ;
-                                                        rdfs:label "SymmetricDrugDrugInteraction"@en .
 
 
 ###  http://p4-lucat.eu/vocab/Symptom
