@@ -2248,24 +2248,6 @@ xsd:date rdf:type rdfs:Datatype .
                                       rdfs:label "DrugBankID"@en .
 
 
-###  http://p4-lucat.eu/vocab/drugLabel
-<http://p4-lucat.eu/vocab/drugLabel> rdf:type owl:DatatypeProperty ;
-                                          rdfs:domain <http://p4-lucat.eu/vocab/Drug> ;
-                                          rdfs:range rdfs:Literal ;
-                                          <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/maria-isabel-castellanos/> ;
-                                          <http://purl.org/dc/terms/modified> "2018-11-26"@en ;
-                                          rdfs:comment "Drug Label."@en ;
-                                          rdfs:label "drugLabel"@en .
-
-
-###  http://p4-lucat.eu/vocab/drugLabel_SPA
-<http://p4-lucat.eu/vocab/drugLabel_SPA> rdf:type owl:DatatypeProperty ;
-                                              rdfs:domain <http://p4-lucat.eu/vocab/Drug> ;
-                                              rdfs:range rdfs:Literal ;
-                                              <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/maria-isabel-castellanos/> ;
-                                              <http://purl.org/dc/terms/modified> "2018-11-26"@en ;
-                                              rdfs:comment "Drug Label_SPA."@en ;
-                                              rdfs:label "drug Label_SPA"@en .
 
 
 ###  http://p4-lucat.eu/vocab/drugList
