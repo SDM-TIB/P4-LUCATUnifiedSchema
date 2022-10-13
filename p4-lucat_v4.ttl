@@ -799,15 +799,17 @@ xsd:date rdf:type rdfs:Datatype .
                                     rdfs:label "hasImage"@en .
 
 
-###  http://p4-lucat.eu/vocab/hasImmunotherapy
-<http://p4-lucat.eu/vocab/hasImmunotherapy> rdf:type owl:ObjectProperty ;
-                                            rdfs:domain <http://p4-lucat.eu/vocab/Patient> ;
-                                            rdfs:range <http://p4-lucat.eu/vocab/Drug> ,
+###  http://p4-lucat.eu/vocab/hasImmunotherapyDrug
+<http://p4-lucat.eu/vocab/hasImmunotherapyDrug> rdf:type owl:ObjectProperty ;
+                                                rdfs:subPropertyOf owl:topObjectProperty ,
+                                                                  <http://p4-lucat.eu/vocab/hasDrugGroup> ;
+                                            rdfs:domain <http://p4-lucat.eu/vocab/LCPatient> ;
+                                            rdfs:range <http://p4-lucat.eu/vocab/DrugGroup> ,
                                                        <http://p4-lucat.eu/vocab/Treatment> ;
-                                            <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> ;
-                                            <http://purl.org/dc/terms/modified> "2018-11-27"@en ;
+                                            <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/emetis-niazmand/> ;
+                                            <http://purl.org/dc/terms/modified> "2022-10-13"@en ;
                                             rdfs:comment "Connection between patient with lung cancer and the immunotherapy drugs that has been prescribed."@en ;
-                                            rdfs:label "hasImmunotherapy"@en .
+                                            rdfs:label "hasImmunotherapyDrug"@en .
 
 
 ###  http://p4-lucat.eu/vocab/hasLiquidBiopsy
@@ -1156,12 +1158,6 @@ xsd:date rdf:type rdfs:Datatype .
                                               rdfs:label "hasRTTreatmentType"@en .
 
 
-###  http://p4-lucat.eu/vocab/hasRadiotherapy
-<http://p4-lucat.eu/vocab/hasRadiotherapy> rdf:type owl:ObjectProperty ;
-                                           rdfs:subPropertyOf owl:topObjectProperty ;
-                                           rdfs:domain <http://p4-lucat.eu/vocab/Patient> ;
-                                           rdfs:range <http://p4-lucat.eu/vocab/Treatment> ;
-                                           rdfs:label "hasRadiotherapy" .
 
 
 ###  http://p4-lucat.eu/vocab/hasReceivedRadiotherapy
@@ -1248,15 +1244,6 @@ xsd:date rdf:type rdfs:Datatype .
                                             rdfs:range <http://p4-lucat.eu/vocab/TumorStage> ;
                                             rdfs:label "hasStudiedSatges" .
 
-
-###  http://p4-lucat.eu/vocab/hasSurgery
-<http://p4-lucat.eu/vocab/hasSurgery> rdf:type owl:ObjectProperty ;
-                                      rdfs:subPropertyOf owl:topObjectProperty ,
-                                                         <http://p4-lucat.eu/vocab/hasOncologicalTreatment> ,
-                                                         <http://p4-lucat.eu/vocab/hasTreatment> ;
-                                      rdfs:domain <http://p4-lucat.eu/vocab/Patient> ;
-                                      rdfs:range <http://p4-lucat.eu/vocab/Treatment> ;
-                                      rdfs:label "hasSurgery" .
 
 
 ###  http://p4-lucat.eu/vocab/hasSystemicPrognosis
