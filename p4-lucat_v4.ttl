@@ -1255,15 +1255,17 @@ xsd:date rdf:type rdfs:Datatype .
                                                 rdfs:label "hasSystemicPrognosis"@en .
 
 
-###  http://p4-lucat.eu/vocab/hasTki
-<http://p4-lucat.eu/vocab/hasTki> rdf:type owl:ObjectProperty ;
-                                  rdfs:domain <http://p4-lucat.eu/vocab/Patient> ;
+###  http://p4-lucat.eu/vocab/hasTKIDrug
+<http://p4-lucat.eu/vocab/hasTKIDrug> rdf:type owl:ObjectProperty ;
+                                      rdfs:subPropertyOf owl:topObjectProperty ,
+                                                         <http://p4-lucat.eu/vocab/hasDrug> ;
+                                  rdfs:domain <http://p4-lucat.eu/vocab/LCPatient> ;
                                   rdfs:range <http://p4-lucat.eu/vocab/Drug> ,
                                              <http://p4-lucat.eu/vocab/Treatment> ;
-                                  <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> ;
-                                  <http://purl.org/dc/terms/modified> "2018-11-27"@en ;
+                                  <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/emetis-niazmand/> ;
+                                  <http://purl.org/dc/terms/modified> "2022-10-13"@en ;
                                   rdfs:comment "Connection between patient with lung cancer and the tki drugs that has been prescribed."@en ;
-                                  rdfs:label "hasTki"@en .
+                                  rdfs:label "hasTKIDrug"@en .
 
 
 ###  http://p4-lucat.eu/vocab/hasTopicRelation_isRelatedTo_Disease
@@ -4550,15 +4552,6 @@ xsd:date rdf:type rdfs:Datatype .
                                  rdfs:comment "Title of Publication."@en ;
                                  rdfs:label "title"@en .
 
-
-###  http://p4-lucat.eu/vocab/tkiList
-<http://p4-lucat.eu/vocab/tkiList> rdf:type owl:DatatypeProperty ;
-                                   rdfs:domain <http://p4-lucat.eu/vocab/LCPatient> ;
-                                   rdfs:range rdfs:Literal ;
-                                   <http://purl.org/dc/terms/creator> <https://www.tib.eu/en/research-development/scientific-data-management/staff/maria-isabel-castellanos/> ;
-                                   <http://purl.org/dc/terms/modified> "2018-11-27"@en ;
-                                   rdfs:comment "."@en ;
-                                   rdfs:label "tkiList"@en .
 
 
 ###  http://p4-lucat.eu/vocab/tnmDiagnosisID
