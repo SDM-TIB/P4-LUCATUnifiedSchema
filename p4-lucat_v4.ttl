@@ -3975,6 +3975,16 @@ xsd:date rdf:type rdfs:Datatype .
                                             rdfs:label "predictionMethod"@en .
 
 
+
+###  http://p4-lucat.eu/vocab/treatmentID
+<http://p4-lucat.eu/vocab/treatmentID> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf owl:topDataProperty ;
+                                               rdf:type owl:FunctionalProperty ;
+                                               rdfs:domain <http://p4-lucat.eu/vocab/Treatment> ;
+                                               rdfs:range rdfs:Literal ;
+                                               rdfs:label "treatmentID" .
+
+
 ###  http://p4-lucat.eu/vocab/previousTreatmentID
 <http://p4-lucat.eu/vocab/previousTreatmentID> rdf:type owl:DatatypeProperty ;
                                                rdfs:subPropertyOf owl:topDataProperty ;
