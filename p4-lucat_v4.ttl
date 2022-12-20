@@ -3354,6 +3354,16 @@ xsd:date rdf:type rdfs:Datatype .
                                          rdfs:label "hasResponseID"@en .
 
 
+###  http://p4-lucat.eu/vocab/responseDescription
+<http://p4-lucat.eu/vocab/responseDescription> rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                         rdf:type owl:FunctionalProperty ;
+                                         rdfs:domain <http://p4-lucat.eu/vocab/Treatment_Response> ;
+                                         rdfs:range xsd:string ;
+                                         rdfs:comment "Description of Treatment response"@en ;
+                                         rdfs:isDefinedBy "disha_purohit"@en ;
+                                         rdfs:label "responseDescription"@en .
+
 ###  http://p4-lucat.eu/vocab/hasTumorSize
 <http://p4-lucat.eu/vocab/hasTumorSize> rdf:type owl:DatatypeProperty ;
                                                rdfs:subPropertyOf owl:topDataProperty ;
