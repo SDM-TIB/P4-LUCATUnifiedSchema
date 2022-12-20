@@ -5451,10 +5451,10 @@ xsd:date rdf:type rdfs:Datatype .
                                    rdfs:label "NLPtool" .
 
 
-###  http://p4-lucat.eu/vocab/NonOncologicalDrug
-<http://p4-lucat.eu/vocab/NonOncologicalDrug> rdf:type owl:Class ;
+###  http://p4-lucat.eu/vocab/Non-oncologicalDrug
+<http://p4-lucat.eu/vocab/Non-oncologicalDrug> rdf:type owl:Class ;
                                               rdfs:subClassOf <http://p4-lucat.eu/vocab/Drug> ;
-                                              rdfs:label "NonOncologicalDrug" .
+                                              rdfs:label "Non-oncologicalDrug" .
 
 
 ###  http://p4-lucat.eu/vocab/NonOncologicalTreatmentLine
