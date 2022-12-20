@@ -5544,6 +5544,12 @@ xsd:date rdf:type rdfs:Datatype .
                                    rdfs:label "Patient"@en .
 
 
+###  http://p4-lucat.eu/vocab/PatientResponse
+<http://p4-lucat.eu/vocab/PatientResponse> rdf:type owl:Class ;
+                                   rdfs:isDefinedBy "disha_purohit"@en ;
+                                   rdfs:label "PatientResponse"@en .
+
+
 ###  http://p4-lucat.eu/vocab/PatientPosition
 <http://p4-lucat.eu/vocab/PatientPosition> rdf:type owl:Class ;
                                            rdfs:subClassOf <http://p4-lucat.eu/vocab/Concept> ;
