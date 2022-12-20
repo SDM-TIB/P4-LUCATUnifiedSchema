@@ -4905,12 +4905,16 @@ xsd:date rdf:type rdfs:Datatype .
                                         rdfs:label "Chemotherapy" .
 
 
+###  http://p4-lucat.eu/vocab/Chemotherapy_treatment
+<http://p4-lucat.eu/vocab/Chemotherapy_treatment> rdf:type owl:Class ;
+                                            rdfs:isDefinedBy "disha_purohit"@en ;
+                                            rdfs:label "Chemotherapy_treatment"@en .
+
 ###  http://p4-lucat.eu/vocab/ChemotherapyDrug
 <http://p4-lucat.eu/vocab/ChemotherapyDrug> rdf:type owl:Class ;
                                             rdfs:subClassOf <http://p4-lucat.eu/vocab/Drug> ;
                                             rdfs:isDefinedBy "disha_purohit"@en ;
                                             rdfs:label "ChemotherapyDrug"@en .
-
 
 ###  http://p4-lucat.eu/vocab/ClinicalStatus
 <http://p4-lucat.eu/vocab/ClinicalStatus> rdf:type owl:Class ;
