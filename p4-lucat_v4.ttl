@@ -4015,8 +4015,8 @@ xsd:date rdf:type rdfs:Datatype .
 <http://p4-lucat.eu/vocab/treatmentID> rdf:type owl:DatatypeProperty ;
                                                rdfs:subPropertyOf owl:topDataProperty ;
                                                rdf:type owl:FunctionalProperty ;
-                                               rdfs:domain <http://p4-lucat.eu/vocab/Treatment> ;
-                                               rdfs:range rdfs:Literal ;
+                                               rdfs:domain <http://p4-lucat.eu/vocab/Chemotherapy_reatment> ;
+                                               rdfs:range xsd:string ;
                                                rdfs:label "treatmentID" .
 
 
