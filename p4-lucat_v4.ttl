@@ -1604,7 +1604,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://p4-lucat.eu/vocab/Response_Response
 <http://p4-lucat.eu/vocab/Response_Response> rdf:type owl:ObjectProperty ;
                                               rdfs:domain <http://p4-lucat.eu/vocab/PatientResponse> ;
-                                              rdfs:range <http://p4-lucat.eu/vocab/TreatmentResponse> ;
+                                              rdfs:range <http://p4-lucat.eu/vocab/Treatment_Response> ;
                                               rdfs:label "Response_Response"@en .
 
 
@@ -3347,7 +3347,7 @@ xsd:date rdf:type rdfs:Datatype .
 <http://p4-lucat.eu/vocab/hasResponseID> rdf:type owl:DatatypeProperty ;
                                          rdfs:subPropertyOf owl:topDataProperty ;
                                          rdf:type owl:FunctionalProperty ;
-                                         rdfs:domain <http://p4-lucat.eu/vocab/TreatmentResponse> ;
+                                         rdfs:domain <http://p4-lucat.eu/vocab/Treatment_Response> ;
                                          rdfs:range rdfs:Literal ;
                                          rdfs:comment "ID Treatment response"@en ;
                                          rdfs:isDefinedBy "disha_purohit"@en ;
@@ -4180,7 +4180,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://p4-lucat.eu/vocab/responseLabel_ENG
 <http://p4-lucat.eu/vocab/responseLabel_ENG> rdf:type owl:DatatypeProperty ;
                                              rdfs:subPropertyOf owl:topDataProperty ;
-                                             rdfs:domain <http://p4-lucat.eu/vocab/TreatmentResponse> ;
+                                             rdfs:domain <http://p4-lucat.eu/vocab/Treatment_Response> ;
                                              rdfs:range xsd:string ;
                                              rdfs:comment "Response of the patient to a specific treatment in english"@en ;
                                              rdfs:isDefinedBy "emetis_niazmand"@en ;
@@ -4190,7 +4190,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://p4-lucat.eu/vocab/responseLabel_SPA
 <http://p4-lucat.eu/vocab/responseLabel_SPA> rdf:type owl:DatatypeProperty ;
                                              rdfs:subPropertyOf owl:topDataProperty ;
-                                             rdfs:domain <http://p4-lucat.eu/vocab/TreatmentResponse> ;
+                                             rdfs:domain <http://p4-lucat.eu/vocab/Treatment_Response> ;
                                              rdfs:range xsd:string ;
                                              rdfs:comment "Response of the patient to a specific treatment in spanish"@en ;
                                              rdfs:isDefinedBy "emetis_niazmand"@en ;
@@ -4714,7 +4714,7 @@ xsd:date rdf:type rdfs:Datatype .
 <http://p4-lucat.eu/vocab/treatmentResponseID> rdf:type owl:DatatypeProperty ;
                                                rdfs:subPropertyOf owl:topDataProperty ;
                                                rdf:type owl:FunctionalProperty ;
-                                               rdfs:domain <http://p4-lucat.eu/vocab/TreatmentResponse> ;
+                                               rdfs:domain <http://p4-lucat.eu/vocab/Treatment_Response> ;
                                                rdfs:range rdfs:Literal ;
                                                rdfs:label "treatmentResponseID" .
 
