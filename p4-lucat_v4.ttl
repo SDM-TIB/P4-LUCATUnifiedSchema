@@ -2826,6 +2826,16 @@ xsd:date rdf:type rdfs:Datatype .
                                            rdfs:label "hasConditionAnn" .
 
 
+###  http://p4-lucat.eu/vocab/hasID_PatientResponse
+<http://p4-lucat.eu/vocab/hasID_PatientResponse> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                        rdf:type owl:FunctionalProperty ;
+                                        rdfs:domain <http://p4-lucat.eu/vocab/PatientResponse> ;
+                                        rdfs:range xsd:string ;
+                                        rdfs:label "hasID_PatientResponse" .
+
+
+
 ###  http://p4-lucat.eu/vocab/hasDOI
 <http://p4-lucat.eu/vocab/hasDOI> rdf:type owl:DatatypeProperty ;
                                   rdfs:subPropertyOf owl:topDataProperty ;
